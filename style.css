@@ -137,3 +137,125 @@ footer {
     background: #39FF14;
     border-radius: 10px;
 }
+
+/* =================================
+   KAJETAN.EXE - CYBERPUNK UPGRADE
+================================= */
+
+/* NAVIGATION */
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #39FF14;
+}
+
+.status {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #39FF14;
+    text-shadow: 0 0 10px #39FF14;
+}
+
+/* BACKGROUND EFFECT */
+
+body {
+    background-image:
+        linear-gradient(#39FF1408 1px, transparent 1px),
+        linear-gradient(90deg, #39FF1408 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+/* MAIN TITLE */
+
+h1 {
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px #39FF1430;
+}
+
+h1 span {
+    text-shadow:
+        0 0 5px #39FF14,
+        0 0 15px #39FF14,
+        0 0 35px #39FF1470;
+}
+
+/* SYSTEM BOX */
+
+.system-box {
+    background: #050a05;
+    border: 1px solid #39FF14;
+    padding: 22px;
+    margin-bottom: 55px;
+    box-shadow:
+        0 0 10px #39FF1420,
+        inset 0 0 15px #39FF1408;
+}
+
+.system-box p {
+    color: #39FF14;
+    font-size: 12px;
+    line-height: 2;
+}
+
+/* FILE MENU */
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    background: #050805;
+    border-left: 3px solid #39FF14;
+}
+
+.menu a span {
+    font-weight: bold;
+    color: #39FF14;
+}
+
+.menu a:hover {
+    background: #39FF14;
+    color: #000;
+    box-shadow: 0 0 20px #39FF1460;
+    transform: translateX(8px);
+}
+
+.menu a:hover span {
+    color: black;
+}
+
+/* WHY THIS BUTTON */
+
+.extra {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.extra a {
+    color: #39FF14;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.extra a:hover {
+    text-shadow: 0 0 15px #39FF14;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 11px;
+    letter-spacing: 3px;
+    opacity: 0.8;
+}
+
+/* SELECTION */
+
+::selection {
+    background: #39FF14;
+    color: black;
+}
