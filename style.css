@@ -1,1 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #000000;
+    color: #39FF14;
+    font-family: 'Courier New', monospace;
+    min-height: 100vh;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    border-bottom: 1px solid #39FF14;
+    box-shadow: 0 2px 15px #39FF1430;
+}
+
+nav a {
+    color: #39FF14;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-shadow: 0 0 12px #39FF14;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 760px;
+    margin: 90px auto;
+    padding: 0 25px;
+}
+
+/* TERMINAL TEXT */
+
+.terminal {
+    color: #39FF14;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 8px #39FF14;
+}
+
+/* HEADINGS */
+
+h1 {
+    font-size: clamp(38px, 7vw, 65px);
+    line-height: 1.15;
+    margin-bottom: 25px;
+    color: white;
+}
+
+h1 span {
+    color: #39FF14;
+    text-shadow: 0 0 15px #39FF14;
+}
+
+h2 {
+    color: #39FF14;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPHS */
+
+.intro {
+    color: #39FF14;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.small {
+    color: #a5ffa0;
+    margin-bottom: 65px;
+    line-height: 1.8;
+}
+
+/* MENU BUTTONS */
+
+.menu {
+    display: grid;
+    gap: 14px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #39FF14;
+    border: 1px solid #39FF14;
+    padding: 18px;
+    border-radius: 6px;
+    background: #080808;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    background: #39FF14;
+    color: black;
+    box-shadow: 0 0 15px #39FF14,
+                0 0 30px #39FF1460;
+    transform: translateX(6px);
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: #39FF14;
+    margin-top: 65px;
+    font-size: 13px;
+}
+
+/* SELECTION COLOR */
+
+::selection {
+    background: #39FF14;
+    color: black;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #39FF14;
+    border-radius: 10px;
+}
